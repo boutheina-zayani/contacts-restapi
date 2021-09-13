@@ -16,7 +16,7 @@ function AddEdit(){
   
 
   useEffect(()=>{
-    if (contact&&edit)  { return setName(contact.name); setEmail(contact.email); setAge(contact.age)}
+    if (contact&&edit)  {  setName(contact.name); setEmail(contact.email); setAge(contact.age)}
      else {setName("");setEmail("");setAge("")}
 
   },[contact])
