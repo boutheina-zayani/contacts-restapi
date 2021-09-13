@@ -1,0 +1,4 @@
+export const GET_CONTACTS="GET_CONTACTS"
+export const GET_CONTACT=" GET_CONTACT"
+export const TOOGLETRUE="TOOGLETRUE"
+export const TOOGLEFALSE="TOOGLEFALSE"

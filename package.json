@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  },
+  "name": "mongoose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"cd server && npx nodemon server.js\" \"cd client && npm start \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boutheina-zayani/mongooooose.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boutheina-zayani/mongooooose/issues"
+  },
+  "homepage": "https://github.com/boutheina-zayani/mongooooose#readme",
+  "description": ""
+}
